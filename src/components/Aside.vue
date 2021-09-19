@@ -48,4 +48,5 @@ img {
   width: auto;
   background: linear-gradient(to top, #dddddd, #ffffff 70%);
 }
+
 </style>

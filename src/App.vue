@@ -1,18 +1,21 @@
 <template id="app">
-  <InfBlock/>
+  <Header />
+  <InfBlock />
 </template>
 
 <script>
 import InfBlock from "@/components/InfBlock.vue";
+import Header from "@/components/Header.vue";
 export default {
   components: {
-    InfBlock
+    InfBlock,
+    Header,
   },
 };
 </script>
 
 <style>
 #app {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 </style>
