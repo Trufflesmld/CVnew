@@ -51,4 +51,12 @@ export default {
     width: 90vw;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .infBlock {
+    width: 95vw;
+    height: 90vh;
+    flex-direction: column;
+  }
+}
 </style>
